@@ -10,5 +10,7 @@
 // Next section is the rundown of "how our program helps teachers and schools"
 // Next section is "what are you waiting for" advertisement area
 // Lastly, the footer
-// Will need to edit the list for javascript 
+// Will need to edit the list for javascript
 
+
+//  TESTING
