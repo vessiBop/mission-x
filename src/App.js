@@ -1,8 +1,9 @@
-import './App.css';
+import './Parent-div.css';
+
 
 function App() {
   return (
-    <div className="App">
+    <div className="Parent-div-contains-all-other-divs">
 
     </div>
   );
