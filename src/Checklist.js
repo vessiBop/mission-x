@@ -1,4 +1,4 @@
-// Create parent div for entire body
+// Create parent div for entire body -- DONE
 // Create navbar, sectioned in three parts, left, center, and right
 // Create first content div @ 1920x1080px
 // Within this div I will have two sections. Top and bottom, about 40% to 60% flex basis.
