@@ -8,7 +8,7 @@ import './Second-section.css';
 
 function App() {
   return (
-    <div className="Parent-div-contains-all-other-divs">
+    <div className="parent-div-contains-all-other-divs">
       <div><Navbar /></div>
       <div><PrepareYoungMinds /></div>
 
