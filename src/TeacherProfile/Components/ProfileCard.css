@@ -35,7 +35,8 @@
 .index {
   display: flex;
   justify-content: space-around;
-  font-family: ;
+  padding-top: 221px;
+  padding-bottom: 627px;
 }
 
 h1 {
