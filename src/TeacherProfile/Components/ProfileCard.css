@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.profile-card {
+  width: 361px;
+  height: 575px;
+  border: 2px solid #e2dfdf;
+  border-radius: 30px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image {
+  height: 175px;
+  width: 175px;
+}
+
+.button {
+  height: 35px;
+  width: 175px;
+}
+
+.profile-info {
+  height: 712px;
+  width: 820px;
+  border: 2px solid #e2dfdf;
+  opacity: 1;
+  border-radius: 30px;
+}
+
+.index {
+  display: flex;
+  justify-content: space-around;
+  font-family: ;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Nunito";
+  color: #707070;
+}
+
+.profile-layout {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.info {
+  font-family: "Nunito";
+  color: #a5a5a5;
+}
+
+.user-info {
+  font-family: "Open Sans", sans-serif;
+  color: #707070;
+}
