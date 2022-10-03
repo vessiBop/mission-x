@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import SideBar from './components/Side-bar';
 import Button from './components/Buttons';
 import img1 from './React_imgs/img1.png';
+import img2 from './React_imgs/img2.png';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
                 </div>
                 <div className="Images">
                     <img src={img1} alt="prj1"></img>
+                    <img src={img2} alt="prj2"></img>
                 </div>
             </div>
         </div>
