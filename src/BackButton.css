@@ -1,0 +1,6 @@
+.btn{
+    background-color: brown;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+}

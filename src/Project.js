@@ -18,6 +18,7 @@ import img12 from './React_imgs/img12.png';
 import img13 from './React_imgs/img13.png';
 import img14 from './React_imgs/img14.png';
 import img15 from './React_imgs/img15.png';
+import BackButton from './BackButton';
 
 function App() {
     return (
@@ -42,38 +43,58 @@ function App() {
                     </SideBar>
                 </div>
 
-                {/* 
-                    .Images {
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                    }
-                 */}
+                
                 <div className="Images">
                    <div> 
                         <img src={img1} alt="prj1"></img>
-                        <p>dfhjkad</p> 
+                        <p><b>Introduction</b><br/>BEGINNER | Animation</p> 
                    </div>
 
-                    <img src={img2} alt="prj2"></img>
-                    <img src={img3} alt="prj3"></img>
+                   <div> <img src={img2} alt="prj2"></img>
+                    <p><b>My Birthday</b><br/>BEGINNER | Animation</p> </div>
 
-                    <img src={img4} alt="prj4"></img>
+                   <div> <img src={img3} alt="prj3"></img>
+                    <p><b>10 Block Challenge</b><br/>BEGINNER | Animation</p> </div>
 
-                    <img src={img5} alt="prj5"></img>
+                   <div> <img src={img4} alt="prj4"></img>
+                    <p><b>Build A Band</b><br/>BEGINNER | Animation</p> </div>
 
-                    <img src={img6} alt="prj6"></img>
-                    <img src={img7} alt="prj7"></img>
-                    <img src={img8} alt="prj8"></img>
-                    <img src={img9} alt="prj9"></img>
-                    <img src={img10} alt="prj10"></img>
-                    <img src={img11} alt="prj11"></img>
-                    <img src={img12} alt="prj12"></img>
-                    <img src={img13} alt="prj13"></img>
-                    <img src={img14} alt="prj14"></img>
-                    <img src={img15} alt="prj15"></img>
+                   <div> <img src={img5} alt="prj5"></img>
+                    <p><b>The Bear And The Monkey</b><br/>BEGINNER | Animation</p> </div>
+
+                   <div> <img src={img6} alt="prj6"></img>
+                    <p><b>Debugging</b><br/>BEGINNER | Animation</p> </div>
+
+                   <div> <img src={img7} alt="prj7"></img>
+                    <p><b>About Me</b><br/>BEGINNER | Animation</p> </div>
+
+                   <div> <img src={img8} alt="prj8"></img>
+                    <p><b>I Am Here!</b><br/>BEGINNER | Animation</p> </div>
+
+                   <div> <img src={img9} alt="prj9"></img>
+                    <p><b>Funny Faces</b><br/>BEGINNER | Animation</p> </div>
+
+                   <div> <img src={img10} alt="prj10"></img>
+                    <p><b>It Tickels!</b><br/>BEGINNER | Animation</p> </div>
+
+                    <div> <img src={img11} alt="prj11"></img>
+                    <p><b>Penguine In A Desert</b><br/>BEGINNER | Animation</p> </div>
+
+                    <div>  <img src={img12} alt="prj12"></img>
+                    <p><b>Time Travel</b><br/>BEGINNER | Animation</p></div> 
+
+                    <div> <img src={img13} alt="prj13"></img>
+                    <p><b>Birthday Card</b><br/>BEGINNER | Animation</p> </div>
+
+                    <div>  <img src={img14} alt="prj14"></img>
+                    <p><b>The Lion and The Mouse Part 1</b><br/>BEGINNER | Animation</p> </div>
+
+                    <div> <img src={img15} alt="prj15"></img>
+                    <p><b>The Lion and The Mouse Part 2</b><br/>BEGINNER | Animation</p> </div>
+
                 </div>
             </div>
+            <div ><BackButton/></div>
             <div>
                 <Footer></Footer>
             </div>
