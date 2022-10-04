@@ -1,0 +1,30 @@
+Button {
+    display: inline-block;
+    background: white;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    margin: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+
+
+
+
+}
+
+Button:hover {
+    background-color: skyblue;
+    color: black;
+}
+
+.btn {
+    margin-left: 60%;
+}
+
+.btn_btn {
+    margin-right: 15%;
+}
