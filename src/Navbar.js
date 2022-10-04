@@ -1,5 +1,6 @@
 import './Fonts.css';
-import { Link } from 'react-router-dom';
+
+// Navbar code, check Navbar.css file for the CSS
 
 export default function Navbar() {
     return (

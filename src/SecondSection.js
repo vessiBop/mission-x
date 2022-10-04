@@ -1,5 +1,7 @@
 import './Fonts.css';
 
+// Code for the section below the navbar. Check Second-section.css
+
 export default function PrepareYoungMinds() {
     return (
         <>
