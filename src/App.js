@@ -8,7 +8,7 @@ import './Second-section.css';
 import WhatWeOffer from './WhatWeOffer';
 import './what-we-offer.css';
 import { useState } from 'react';
-import StudentProject from './Project.js';
+
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <Navbar />
       <PrepareYoungMinds />
       <WhatWeOffer />
-      <StudentProject></StudentProject>
+      
 
     </div>
   );
