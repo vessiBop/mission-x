@@ -36,13 +36,24 @@ function App() {
             </div>
 
             <div className='container'>
-                <div className="Side_bar" style={{ backgroundColor: "white" }}>
+                <div className="Side_bar" style={{ backgroundColor: "pink" }}>
                     <SideBar className="Side_bar">
 
                     </SideBar>
                 </div>
+
+                {/* 
+                    .Images {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                    }
+                 */}
                 <div className="Images">
-                    <img src={img1} alt="prj1"></img>
+                   <div> 
+                        <img src={img1} alt="prj1"></img>
+                        <p>dfhjkad</p> 
+                   </div>
 
                     <img src={img2} alt="prj2"></img>
                     <img src={img3} alt="prj3"></img>

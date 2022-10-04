@@ -1,8 +1,9 @@
 Button {
-    display: inline-block;
+   display: flexbox;
     background: white;
     color: black;
-    border: none;
+    border-color: black ;
+border-radius: 2%;
     padding: 5px 10px;
     margin: 1px;
     border-radius: 5px;
@@ -20,11 +21,12 @@ Button:hover {
     background-color: skyblue;
     color: black;
 }
-
-.btn {
-    margin-left: 60%;
-}
-
-.btn_btn {
-    margin-right: 15%;
+.Button_Container {
+   
+    display: flex;
+    margin-left: 12cm;
+    margin-right: 3cm;
+    justify-content:space-between;
+ 
+   
 }
