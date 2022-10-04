@@ -7,9 +7,23 @@ import augmentedRealityImage from './images/Projects04.png'
 
 export default function WhatWeOffer() {
     const [imageURL, setImageURL] = useState(animationImage)
+    const [style, setStyle] = useState("circle-one")
     
-    
-    
+    const changeStyle = () => {
+        console.log("you have just clicked on the button")
+
+        setStyle("circle-one2");
+    }
+
+
+
+
+
+
+
+
+    // functions for changing the image on the laptop screen onClick
+
     const changingImageToAnimation = () => {
         console.log('image changed to animation')
              setImageURL(animationImage)     
@@ -28,8 +42,6 @@ export default function WhatWeOffer() {
         console.log('image changed to augmented reality')
              setImageURL(augmentedRealityImage)
     }
-
-
 
     return (
         <>
@@ -65,10 +77,10 @@ export default function WhatWeOffer() {
                     <div className='project-image'>                       
                         { <img src={imageURL} alt="animation"/>}
                         <div id='container-for-circles-flexbox'>
-                    <div id='circle-one'></div>
-                    <div id='circle-two'></div>
-                    <div id='circle-three'></div>
-                    <div id='circle-four'></div>
+                    <button onClick={changingImageToAnimation}><div id='circle-one'></div></button>
+                    <button onClick={changingImageToGaming}><div id='circle-two'></div></button>
+                    <button onClick={changingImageToChatBots}><div id='circle-three'></div></button>
+                    <button onClick={changingImageToAugmentedReality}><div id='circle-four'></div></button>
                     </div>
                     
                     
