@@ -3,7 +3,7 @@ import './BackButton.css';
 function BackButton(){
     return(
         <div>
-            <button>Back To Top</button>
+            <button className='btn'>Back To Top</button>
         </div>
     );
 }

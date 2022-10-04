@@ -34,16 +34,16 @@ function App() {
                 </p>
 
                 <Button></Button>
+                <hr/>
             </div>
 
             <div className='container'>
-                <div className="Side_bar" style={{ backgroundColor: "pink" }}>
+                <div className="Side_bar" style={{ backgroundColor: "white" }}>
                     <SideBar className="Side_bar">
 
                     </SideBar>
                 </div>
-
-                
+              
                 <div className="Images">
                    <div> 
                         <img src={img1} alt="prj1"></img>
@@ -94,7 +94,9 @@ function App() {
 
                 </div>
             </div>
+            <hr/>
             <div ><BackButton/></div>
+            <br/>
             <div>
                 <Footer></Footer>
             </div>

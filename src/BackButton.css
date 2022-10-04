@@ -1,6 +1,12 @@
 .btn{
-    background-color: brown;
-    color: black;
+    background-color: rgb(174, 98, 98);
+    color: white;
     display: flex;
-    align-items: flex-end;
+    padding:3mm;
+    justify-items: end;
+    margin-left: 33cm;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: inherit;
 }
