@@ -263,6 +263,13 @@
     
     
 }
+#circle-two2 {
+    border: 2px solid #707070;
+    border-radius: 100px;
+    height: 16px;
+    width: 16px;
+    background-color: #707070;
+}
 #circle-three {
     border: 2px solid #707070;
     border-radius: 100px;
@@ -272,6 +279,13 @@
    
     
 }
+#circle-three2 {
+    border: 2px solid #707070;
+    border-radius: 100px;
+    height: 16px;
+    width: 16px;
+    background-color: #707070;
+}
 #circle-four {
     border: 2px solid #707070;
     border-radius: 100px;
@@ -279,6 +293,13 @@
     width: 16px;
     
     
+}
+#circle-four2 {
+    border: 2px solid #707070;
+    border-radius: 100px;
+    height: 16px;
+    width: 16px;
+    background-color: #707070;
 }
 
 #container-for-circles-flexbox button {
