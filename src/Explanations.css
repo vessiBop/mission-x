@@ -7,11 +7,11 @@
 
 #four-buttons-for-explanation-section {
     height: 40px;
-    width: 1920px;
-    display: flex;
-    justify-content: space-around;
+    width: 1400px;
+    text-align: center;
     
 }
+
 
 #explanation-btn-01 {
     height: 35px;
@@ -25,6 +25,8 @@
     filter: drop-shadow(0 4px 5px #00000029);
     font-size: medium;
     cursor: pointer;
+    position: absolute;
+    left: 50px;
 }
 #explanation-btn-02 {
     height: 35px;
@@ -37,6 +39,8 @@
     filter: drop-shadow(0 4px 5px #00000029);
     font-size: medium;
     cursor: pointer;
+    position: absolute;
+    left: 700px;
 }
 #explanation-btn-03 {
     height: 35px;
@@ -49,6 +53,8 @@
     filter: drop-shadow(0 4px 5px #00000029);
     font-size: medium;
     cursor: pointer;
+    position: absolute;
+    left: 1050px;
 }
 #explanation-btn-04 {
     height: 35px;
@@ -62,6 +68,8 @@
     filter: drop-shadow(0 4px 5px #00000029);
     font-size: medium;
     cursor: pointer;
+    position: absolute;
+    left: 1400px;
 }
 
 #explanation-btn-01:hover {
@@ -89,6 +97,8 @@
     filter: drop-shadow(0 4px 5px #00000029);
     font-size: medium;
     cursor: pointer;
+    position: absolute;
+    left: 50px;
 }
 #explanation-btn-02-2 {
     height: 35px;
@@ -102,6 +112,8 @@
     filter: drop-shadow(0 4px 5px #00000029);
     font-size: medium;
     cursor: pointer;
+    position: absolute;
+    left: 386px;
 }
 #explanation-btn-03-2 {
     height: 35px;
@@ -115,6 +127,8 @@
     filter: drop-shadow(0 4px 5px #00000029);
     font-size: medium;
     cursor: pointer;
+    position: absolute;
+    left: 736px;
 }
 #explanation-btn-04-2 {
     height: 35px;
@@ -128,6 +142,8 @@
     filter: drop-shadow(0 4px 5px #00000029);
     font-size: medium;
     cursor: pointer;
+    position: absolute;
+    left: 1086px;
 }
 
 #bkgrnd-color {
@@ -137,50 +153,11 @@
     margin-top: 10px;
 }
 
-#main-content-of-div {
-    width: 1920px;
-    height: 634px;
-    margin-top: 10px;
-    font-family: 'Nunito', sans-serif;
-    
-    
-}
-#main-content-of-div-2 {
-    width: 1920px;
-    height: 634px;
-    margin-top: 10px;
-    font-family: 'Nunito', sans-serif;
-    visibility: hidden;
-}
-
-#header {
-    margin-left: 334px;
-    font-size: 30px;
-    padding-top: 70px;
-    color: #606060
-}
-#main-content-of-div h3 {
-    margin-left: 334px;
-    font-size: 20px;
-    color: #606060
-}
-
-#content-true {
-    position: absolute;
-    top: 1915px;
-    left: 375px;
-    width: 1406px;
-    height: 364px;
-    font-family: 'Nunito', sans-serif;
-    color: #606060;
-    
-}
-
-#star-images {
+.star-images {
     height: 364px;
     width: 50px;
     position: absolute;
-    top: 1915px;
+    top: 200px;
     left: 335px;
     display: flex;
     flex-direction: column;
@@ -194,10 +171,136 @@
     margin: 11px 0;
 }
 
-#content-true p {
+/* ALL DIV CONTENT CHANGE CSS BELOW */
+
+
+
+#main-content-of-div {
+    
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;   
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+#main-content-of-div-2 {
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    z-index: 1;
+}
+
+#main-content-of-div2 {
+   
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    visibility: hidden;  
+    position: absolute;
+    z-index: 2;
+}
+
+#main-content-of-div2-2 {
+    
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    z-index: 2;
+}
+
+#main-content-of-div3 {
+    
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    visibility: hidden;
+    position: absolute;
+    z-index: 3;
+    
+}
+
+#main-content-of-div3-2 {
+    
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    z-index: 3;
+    
+}
+
+#main-content-of-div4 {
+    
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    visibility: hidden;
+    position: absolute;
+    z-index: 4;
+    
+}
+#main-content-of-div4-2 {
+    
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    z-index: 4;
+    
+}
+
+/* THE CSS BELOW IS THE FINE TUNING FOR POSITIONING OF THE TEXT WITHIN CONTAINER */
+
+
+.header {
+    font-size: 30px;
+    color: #606060;
+    margin-top: -90px;
+}
+
+#main-content-of-div h3 {
+    font-size: 20px;
+    color: #606060
+}
+#main-content-of-div2 h3 {
+    font-size: 20px;
+    color: #606060
+}
+#main-content-of-div3 h3 {
+    font-size: 20px;
+    color: #606060
+}
+#main-content-of-div4 h3 {
+    font-size: 20px;
+    color: #606060
+}
+
+.content-true {
+    position: absolute;
+    top: 200px;
+    left: 375px;
+    width: 1406px;
+    height: 364px;
+    font-family: 'Nunito', sans-serif;
+    color: #606060;   
+}
+
+.content-true p {
     margin-top: -25px;
 }
-#content-true h4 {
+.content-true h4 {
     margin-top: 18px;
 }
 
