@@ -7,7 +7,10 @@ import PrepareYoungMinds from './SecondSection';
 import './Second-section.css';
 import WhatWeOffer from './WhatWeOffer';
 import './what-we-offer.css';
-import { useState } from 'react';
+import ResponsiveImages from './SectionThree';
+import './SectionThree.css';
+import ExplanationsOfProject from './Explanations';
+import './Explanations.css';
 
 
 
@@ -18,6 +21,8 @@ function App() {
       <Navbar />
       <PrepareYoungMinds />
       <WhatWeOffer />
+      <ResponsiveImages />
+      <ExplanationsOfProject />
       
 
     </div>
