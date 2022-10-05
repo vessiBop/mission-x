@@ -1,0 +1,70 @@
+#final-section-body {
+    height: 627px;
+    width: 1920px;
+    display: flex;
+}
+
+#teacher-img {
+    margin-left: 282px;
+    margin-top: 105px;
+    filter: drop-shadow(0 4px 5px #00000029);
+    
+}
+
+#left-side {
+    flex-basis: 50%;
+}
+
+#right-side {
+    flex-basis: 40%;
+    margin-top: 105px;
+    color: #6C6C6C;
+    margin-left: 80px;
+}
+
+#right-side h1, button {
+    font-family: 'Nunito';
+}
+
+#right-side h2, h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#right-side h2 {
+    margin-top: -10px;
+    font-size: 30px;
+    width: 610px;
+    
+}
+
+#right-side h1 {
+    font-size: 46px;
+}
+
+#right-side h5 {
+    font-size: 20px;
+}
+
+#btn1 {
+    background-color: white;
+    border: 3px solid #42C0F6;
+    border-radius: 8px;
+    width: 175px;
+    height: 35px;
+    filter: drop-shadow(0 4px 5px #00000029);
+    font-size: medium;
+
+}
+
+#btn2 {
+    background-color: #F91C85;
+    border: 3px solid #F91C85;
+    border-radius: 8px;
+    width: 175px;
+    height: 35px;
+    margin-left: 30px;
+    color: white;
+    filter: drop-shadow(0 4px 5px #00000029);
+    font-size: medium
+}
+

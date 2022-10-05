@@ -7,7 +7,7 @@ import augmentedRealityImage from './images/Projects04.png'
 
 export default function WhatWeOffer() {
     const [imageURL, setImageURL] = useState(animationImage)
-    const [style, setStyle] = useState("circle-one")
+    const [style, setStyle] = useState("circle-one2")
     const [style2, setStyle2] = useState("circle-two")
     const [style3, setStyle3] = useState("circle-three")
     const [style4, setStyle4] = useState("circle-four")
@@ -53,13 +53,6 @@ export default function WhatWeOffer() {
         setImageURL(augmentedRealityImage)     
         console.log(imageURL, `this is image URL`)
     }
-
-
-
-
-
-
-
 
     // functions for changing the image on the laptop screen onClick
 
