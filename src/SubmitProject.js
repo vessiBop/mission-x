@@ -1,5 +1,13 @@
-export default function SubmitProject() {
+import './Fonts.css';
+
+// Code for the section below the navbar. Check Second-section.css
+
+export default function UploadScreen() {
     return (
-"Submit Project Section"
+        <>
+            <div className="upload-parent-div">
+               
+            </div>
+        </>
     )
 }
