@@ -1,4 +1,4 @@
-.upload-parent-div {
+.upload-parent-container {
     width: 1920px;
     height: 3625px;
     top: 64px;
@@ -6,3 +6,12 @@
     background-color: #b1e4fa;
 }
 
+.upload-split-div {
+    border-radius: 30px;
+    width: 76%;
+    height: 80%;
+    top: 128px;
+    left: 275px;
+    background-color: #d9f2fd;
+    position: absolute
+}
