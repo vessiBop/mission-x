@@ -1,12 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .index {
   background-color: rgba(178, 228, 250, 1);
   width: 1802px;
-  height: 118px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
 }
 
 .content {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(238, 238, 238, 1);
+  height: 700px;
   width: 90%;
-  height: 650px;
   border-radius: 30px;
 }

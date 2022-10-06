@@ -1,0 +1,311 @@
+.explanations-of-the-project-div h1 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 42px;
+    color: #6C6C6C;
+}
+
+#four-buttons-for-explanation-section {
+    height: 40px;
+    width: 1400px;
+    text-align: center;
+    
+}
+
+
+#explanation-btn-01 {
+    height: 35px;
+    width: 250px;
+    margin-left: 314px;
+    font-family: 'Nunito', sans-serif;
+    color: #6C6C6C;
+    background-color: #FFF;
+    border: 2px solid #42C0F6;
+    border-radius: 8px;
+    filter: drop-shadow(0 4px 5px #00000029);
+    font-size: medium;
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+}
+#explanation-btn-02 {
+    height: 35px;
+    width: 250px;
+    font-family: 'Nunito', sans-serif;
+    color: #6C6C6C;
+    background-color: #FFF;
+    border: 2px solid #42C0F6;
+    border-radius: 8px;
+    filter: drop-shadow(0 4px 5px #00000029);
+    font-size: medium;
+    cursor: pointer;
+    position: absolute;
+    left: 700px;
+}
+#explanation-btn-03 {
+    height: 35px;
+    width: 250px;
+    font-family: 'Nunito', sans-serif;
+    color: #6C6C6C;
+    background-color: #FFF;
+    border: 2px solid #42C0F6;
+    border-radius: 8px;
+    filter: drop-shadow(0 4px 5px #00000029);
+    font-size: medium;
+    cursor: pointer;
+    position: absolute;
+    left: 1050px;
+}
+#explanation-btn-04 {
+    height: 35px;
+    width: 250px;
+    margin-right: 314px;
+    font-family: 'Nunito', sans-serif;
+    color: #6C6C6C;
+    background-color: #FFF;
+    border: 2px solid #42C0F6;
+    border-radius: 8px;
+    filter: drop-shadow(0 4px 5px #00000029);
+    font-size: medium;
+    cursor: pointer;
+    position: absolute;
+    left: 1400px;
+}
+
+#explanation-btn-01:hover {
+    background-color:#EFEFF1
+}
+#explanation-btn-02:hover {
+    background-color:#EFEFF1
+}
+#explanation-btn-03:hover {
+    background-color:#EFEFF1
+}
+#explanation-btn-04:hover {
+    background-color:#EFEFF1
+}
+
+#explanation-btn-01-2 {
+    height: 35px;
+    width: 250px;
+    margin-left: 314px;
+    font-family: 'Nunito', sans-serif;
+    color: #6C6C6C;
+    background-color: #EFEFF1;
+    border: 2px solid #EFEFF1;
+    border-radius: 8px;
+    filter: drop-shadow(0 4px 5px #00000029);
+    font-size: medium;
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+}
+#explanation-btn-02-2 {
+    height: 35px;
+    width: 250px;
+    margin-left: 314px;
+    font-family: 'Nunito', sans-serif;
+    color: #6C6C6C;
+    background-color: #EFEFF1;
+    border: 2px solid #EFEFF1;
+    border-radius: 8px;
+    filter: drop-shadow(0 4px 5px #00000029);
+    font-size: medium;
+    cursor: pointer;
+    position: absolute;
+    left: 386px;
+}
+#explanation-btn-03-2 {
+    height: 35px;
+    width: 250px;
+    margin-left: 314px;
+    font-family: 'Nunito', sans-serif;
+    color: #6C6C6C;
+    background-color: #EFEFF1;
+    border: 2px solid #EFEFF1;
+    border-radius: 8px;
+    filter: drop-shadow(0 4px 5px #00000029);
+    font-size: medium;
+    cursor: pointer;
+    position: absolute;
+    left: 736px;
+}
+#explanation-btn-04-2 {
+    height: 35px;
+    width: 250px;
+    margin-left: 314px;
+    font-family: 'Nunito', sans-serif;
+    color: #6C6C6C;
+    background-color: #EFEFF1;
+    border: 2px solid #EFEFF1;
+    border-radius: 8px;
+    filter: drop-shadow(0 4px 5px #00000029);
+    font-size: medium;
+    cursor: pointer;
+    position: absolute;
+    left: 1086px;
+}
+
+#bkgrnd-color {
+    background-color: #EFEFF1;
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+}
+
+.star-images {
+    height: 364px;
+    width: 50px;
+    position: absolute;
+    top: 200px;
+    left: 335px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+.star-image {
+    width: 40px;
+    height: 37px;
+    margin: 11px 0;
+}
+
+/* ALL DIV CONTENT CHANGE CSS BELOW */
+
+
+
+#main-content-of-div {
+    
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;   
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+#main-content-of-div-2 {
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    z-index: 1;
+}
+
+#main-content-of-div2 {
+   
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    visibility: hidden;  
+    position: absolute;
+    z-index: 2;
+}
+
+#main-content-of-div2-2 {
+    
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    z-index: 2;
+}
+
+#main-content-of-div3 {
+    
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    visibility: hidden;
+    position: absolute;
+    z-index: 3;
+    
+}
+
+#main-content-of-div3-2 {
+    
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    z-index: 3;
+    
+}
+
+#main-content-of-div4 {
+    
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    visibility: hidden;
+    position: absolute;
+    z-index: 4;
+    
+}
+#main-content-of-div4-2 {
+    
+    width: 1920px;
+    height: 634px;
+    margin-top: 10px;
+    font-family: 'Nunito', sans-serif;
+    position: absolute;
+    z-index: 4;
+    
+}
+
+/* THE CSS BELOW IS THE FINE TUNING FOR POSITIONING OF THE TEXT WITHIN CONTAINER */
+
+
+.header {
+    font-size: 30px;
+    color: #606060;
+    margin-top: -90px;
+}
+
+#main-content-of-div h3 {
+    font-size: 20px;
+    color: #606060
+}
+#main-content-of-div2 h3 {
+    font-size: 20px;
+    color: #606060
+}
+#main-content-of-div3 h3 {
+    font-size: 20px;
+    color: #606060
+}
+#main-content-of-div4 h3 {
+    font-size: 20px;
+    color: #606060
+}
+
+.content-true {
+    position: absolute;
+    top: 200px;
+    left: 375px;
+    width: 1406px;
+    height: 364px;
+    font-family: 'Nunito', sans-serif;
+    color: #606060;   
+}
+
+.content-true p {
+    margin-top: -25px;
+}
+.content-true h4 {
+    margin-top: 18px;
+}
+
+.fourth-of-five-contents {
+    line-height: 15px;
+}
+
+

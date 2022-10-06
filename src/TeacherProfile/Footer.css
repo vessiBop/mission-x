@@ -4,7 +4,7 @@
 
 .footer-layout {
   background-color: #b2e4fa;
-  width: 1920px;
+  width: 100%;
   height: 480px;
   display: flex;
   justify-content: space-around;

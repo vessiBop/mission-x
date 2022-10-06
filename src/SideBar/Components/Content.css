@@ -152,3 +152,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.closed > img {
+  padding-left: 10%;
+}
