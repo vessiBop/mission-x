@@ -1,0 +1,12 @@
+.index {
+  background-color: rgba(178, 228, 250, 1);
+  width: 1802px;
+  height: 118px;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 90%;
+  height: 650px;
+  border-radius: 30px;
+}
