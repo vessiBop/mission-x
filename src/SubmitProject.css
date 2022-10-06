@@ -15,3 +15,12 @@
     background-color: #d9f2fd;
     position: absolute
 }
+
+.screenshot-img {
+    max-width: 400px;
+    background-image: url(./images/StudentDashboard/makeProject-screenshot.png);
+    top: 100px;
+    left: 150px;
+    position: absolute;
+
+}
