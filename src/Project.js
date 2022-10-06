@@ -1,8 +1,10 @@
-import Nav from './Navigation-bar';
-import Footer from './Footer';
+
+import './Project.css';
+
 import SideBar from './Side-bar';
 import Button from './Button';
 import './Project.css';
+
 import img1 from './React_imgs/img1.png';
 import img2 from './React_imgs/img2.png';
 import img3 from './React_imgs/img3.png';
@@ -23,8 +25,10 @@ import BackButton from './BackButton';
 function App() {
     return (
         <div style={{ backgroundColor: "white" }} >
+            <br/>
+            
             <div>
-                <Nav>This is Navigation bar</Nav>
+                
 
                 <h1 style={{ textAlign: "center" }}>
                     PROJECTS
@@ -32,6 +36,7 @@ function App() {
                 <p style={{ textAlign: "center" }}>
                     <b> Welcome to the project library.You can use the Filter on the right to help you search for specific projects.</b>
                 </p>
+                <br/>
 
                 <Button></Button>
                 <hr/>
@@ -97,9 +102,7 @@ function App() {
             <hr/>
             <div ><BackButton/></div>
             <br/>
-            <div>
-                <Footer></Footer>
-            </div>
+           
         </div>
     );
 }
