@@ -12,8 +12,7 @@ import './SectionThree.css';
 import ExplanationsOfProject from './Explanations';
 import './Explanations.css';
 import FinalSectionBeforeNavbar from './FinalSection';
-import Footer from './Footer';
-import './Footer.css'
+
 
 
 export default function Homepage() {
@@ -25,7 +24,7 @@ export default function Homepage() {
         <ResponsiveImages />
         <ExplanationsOfProject />
         <FinalSectionBeforeNavbar />
-        <Footer />      
+             
 
       </div>
     );
