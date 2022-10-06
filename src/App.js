@@ -14,21 +14,19 @@ import './Explanations.css';
 import FinalSectionBeforeNavbar from './FinalSection';
 import Footer from './Footer';
 import './Footer.css'
+import Homepage from './Homepage';
+import { Route, BrowserRouter, Routes } from 'react-router-dom';
 
 
 
 function App() {
   return (
-    <div className="parent-div-contains-all-other-divs">
-
-      <Navbar />
-      <PrepareYoungMinds />
-      <WhatWeOffer />
-      <ResponsiveImages />
-      <ExplanationsOfProject />
-      <FinalSectionBeforeNavbar />
-      <Footer />      
-
+    <div className="App">
+       <BrowserRouter>
+          <Routes>
+            <Route path="/home" element={<Homepage />} />
+          </Routes>
+        </BrowserRouter>
     </div>
   );
 }
