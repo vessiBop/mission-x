@@ -24,3 +24,29 @@
     position: absolute;
 
 }
+
+.submit-text1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    top: 365px;
+    left: 228px;
+    width: 562px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+
+}
+
+.submit-text2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    top: 425px;
+    left: 88px;
+    width: 562px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+
+}
