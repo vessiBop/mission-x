@@ -1,4 +1,4 @@
-
+import './FinalSection.css';
 import './Parent-div.css';
 import './Navbar.css';
 import Navbar from './Navbar';
@@ -11,6 +11,9 @@ import ResponsiveImages from './SectionThree';
 import './SectionThree.css';
 import ExplanationsOfProject from './Explanations';
 import './Explanations.css';
+import FinalSectionBeforeNavbar from './FinalSection';
+import Footer from './Footer';
+import './Footer.css'
 
 
 
@@ -23,7 +26,8 @@ function App() {
       <WhatWeOffer />
       <ResponsiveImages />
       <ExplanationsOfProject />
-      
+      <FinalSectionBeforeNavbar />
+      <Footer />      
 
     </div>
   );
