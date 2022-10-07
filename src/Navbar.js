@@ -1,4 +1,5 @@
-import './Fonts.css';
+
+import './Navbar.css';
 
 // Navbar code, check Navbar.css file for the CSS
 
@@ -8,7 +9,7 @@ export default function Navbar() {
             <div className="left-side-child-of-navbar"></div>
             <div className="center-child-of-navbar">
                 <p className="home-button">HOME</p>
-                <p className="features-button">FEATURES</p>
+                <p className="features-button">PROJECTS</p>
                 <p className="teachers-button">TEACHERS</p>
             </div>
             <div className="right-side-child-of-navbar">
