@@ -1,8 +1,6 @@
-
-
-
 import SideBar from './ProjectpageComponents/Side-bar';
 import Button from './ProjectpageComponents/Button';
+import Navbar from './Navbar';
 import './StudentsProjectPage.css';
 import './Fonts.css';
 import img1 from './React_imgs/img1.png';
@@ -22,10 +20,10 @@ import img14 from './React_imgs/img14.png';
 import img15 from './React_imgs/img15.png';
 import BackButton from './ProjectpageComponents/BackButton';
 
-
-function App() {
+function StudentsProjectPage() {
     return (
-        <div>
+        <div className='main'>
+            <div><Navbar /></div>
         <div>
             <br/>
             <div>
@@ -109,4 +107,4 @@ function App() {
     );
 }
 
-export default App;
+export default StudentsProjectPage;
