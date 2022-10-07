@@ -1,7 +1,7 @@
 
 
 
-import SideBar from './Side-bar';
+import SideBar from './ProjectpageComponents/Side-bar';
 import Button from './ProjectpageComponents/Button';
 import './Project.css';
 import './Fonts.css';
