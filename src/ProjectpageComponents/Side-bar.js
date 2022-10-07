@@ -1,7 +1,7 @@
 
 function SideBar() {
     return (
-        <div>
+        <div className="Side_bar">
             <h4>SUBSCRIPTION</h4>
             <label>
                 <input type="checkbox" checked="checked" /> Free

@@ -24,7 +24,7 @@ import BackButton from './ProjectpageComponents/BackButton';
 
 function App() {
     return (
-        <div style={{ backgroundColor: "white" }} >
+        <div>
             <br/>
             
             <div>
@@ -45,7 +45,7 @@ function App() {
             <div className='container'>
                 <div className="Side_bar" style={{ backgroundColor: "white" }}>
                     <br/>
-                    <SideBar className="Side_bar">
+                    <SideBar>
 
                     </SideBar>
                 </div>
