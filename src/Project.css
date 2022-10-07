@@ -39,3 +39,8 @@ img {
     border-color: black;
     border-image: fill;
 }
+h1{
+    text-align: left;
+    margin-left: 16cm;
+    font-family: 'Open Sans', sans-serif;
+}

@@ -30,7 +30,7 @@ function App() {
             <div>
                 
 
-                <h1 style={{ textAlign: "center" }}>
+                <h1>
                     PROJECTS
                 </h1>
                 <p style={{ textAlign: "center" }}>
