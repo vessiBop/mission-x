@@ -3,7 +3,7 @@ import './Navbar.css';
 import Navbar from './Navbar';
 import './Fonts.css';
 
-import StudentProject from './Project';
+import StudentProject from './StudentsProjectPage';
 
 
 

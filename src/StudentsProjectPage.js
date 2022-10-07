@@ -3,7 +3,7 @@
 
 import SideBar from './ProjectpageComponents/Side-bar';
 import Button from './ProjectpageComponents/Button';
-import './Project.css';
+import './StudentsProjectPage.css';
 import './Fonts.css';
 import img1 from './React_imgs/img1.png';
 import img2 from './React_imgs/img2.png';
