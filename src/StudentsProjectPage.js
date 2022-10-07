@@ -23,7 +23,7 @@ import BackButton from './ProjectpageComponents/BackButton';
 function StudentsProjectPage() {
     return (
         <div className='main'>
-            <div><Navbar /></div>
+        <div><Navbar /></div>
         <div>
             <br/>
             <div>
