@@ -24,7 +24,7 @@ export default function Homepage() {
         <ResponsiveImages />
         <ExplanationsOfProject />
         <FinalSectionBeforeNavbar />
-             
+          
 
       </div>
     );

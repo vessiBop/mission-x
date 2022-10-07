@@ -1,3 +1,7 @@
+.main{
+    position:relative;
+   
+}
 .container {
     
     display: flex;
@@ -11,9 +15,12 @@
 
 .Side_bar {
     flex: 1;
-    background-color: skyblue;
+    position: absolute;
+   
     padding: 20px;
     text-align: left;
+    margin-top: 12mm;
+    margin-bottom: 15mm;
 }
 h4{
     text-decoration: underline;

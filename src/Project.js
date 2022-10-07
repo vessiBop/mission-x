@@ -20,9 +20,10 @@ import img14 from './React_imgs/img14.png';
 import img15 from './React_imgs/img15.png';
 import BackButton from './BackButton';
 
+
 function App() {
     return (
-        <div style={{ backgroundColor: "white" }} >
+        <div className='main'>
             <div>
                 <Nav>This is Navigation bar</Nav>
 
