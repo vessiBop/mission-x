@@ -22,30 +22,46 @@
 
 }
 
-.home-button {
-    left: 774px;
+.screenshot {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 12px;
+    background-color: #e5ab2c;
+    left: 1130px;
     top: 16px;
-    width: 81px;
-    height: 22px;
+    width: 150px;
+    height: 32px;
     position: absolute;
 
 }
 
-.features-button {
-    left: 923px;
+.ask-help {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 12px;
+    background-color: #f91c85;
+    left: 1290px;
     top: 16px;
-    width: 82px;
-    height: 22px;
+    width: 150px;
+    height: 32px;
     position: absolute;
 
 }
 
 .teachers-button {
-    left: 1098px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 12px;
+    background-color: #e5ab2c;
+    left: 1450px;
     top: 16px;
-    width: 50px;
-    height: 22px;
+    width: 150px;
+    height: 32px;
     position: absolute;
+
 
 }
 

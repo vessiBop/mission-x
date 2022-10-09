@@ -17,20 +17,20 @@
 }
 
 .screenshot-img {
-    max-width: 400px;
+    max-width: 500px;
     background-image: url(./images/StudentDashboard/makeProject-screenshot.png);
-    top: 100px;
-    left: 150px;
+    top: 70px;
+    left: 135px;
     position: absolute;
 
 }
 
 .submit-text1 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
+    font-size: 30px;
     text-align: left;
-    top: 365px;
-    left: 228px;
+    top: 400px;
+    left: 235px;
     width: 562px;
     height: 98px;
     color: #6C6C6C;
@@ -42,10 +42,110 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     text-align: center;
-    top: 425px;
-    left: 88px;
+    top: 470px;
+    left: 110px;
     width: 562px;
     height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+
+}
+
+.submit-butt {
+    display:flex;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f91c85;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    top: 580px;
+    left: 265px;
+    width: 250px;
+    height: 160px;
+    color: #6C6C6C;
+    position: absolute;
+
+}
+
+.upload-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 50%;
+}
+
+
+.call-teacher-butt {
+    border-color: black;
+    border-top-width: 5px;    
+    display:flex ;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f91c85;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    top: 580px;
+    left: 900px;
+    width: 250px;
+    height: 160px;
+    color: #6C6C6C;
+    position: absolute;
+    text-shadow: black;
+
+}
+
+.subphoto-img {
+    top: 69px;
+    left: 820px;
+    width: 450px;
+    height: 267px;
+    color: #6C6C6C;
+    position: absolute;
+
+
+}
+
+.show-teacher1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    top: 400px;
+    left: 900px;
+    width: 562px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+
+}
+
+.show-teacher2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    top: 470px;
+    left: 750px;
+    width: 562px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+
+}
+
+
+.submit-butt2 {
+    display: block;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ccd1d3;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    top: 0px;
+    left: 720px;
+    width: 3px;
+    height: 100%;
     color: #6C6C6C;
     position: absolute;
 

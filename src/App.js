@@ -8,12 +8,19 @@ import './SubmitProject.css';
 import './Parent-div.css';
 import './Fonts.css';
 import './App.css';
+import SideBar from './SideBar/SideBar';
 
 
 function App() {
   return (
     <div className="parent-div-contains-all-other-divs">
       <Navbar />
+      
+      
+      <SideBar/>
+      
+      
+
       <UploadScreen />
     </div>
   );
