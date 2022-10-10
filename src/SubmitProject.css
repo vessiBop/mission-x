@@ -8,7 +8,7 @@
 
 .upload-split-div {
     border-radius: 30px;
-    width: 76%;
+    width: 74%;
     height: 80%;
     top: 128px;
     left: 275px;
@@ -72,6 +72,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
+    margin-bottom: 25px;
     width: 50%;
 }
 
@@ -149,4 +150,144 @@
     color: #6C6C6C;
     position: absolute;
 
+}
+/* Project Submissions css*/
+.project-subs-container {
+    display: flex;
+    justify-content: baseline;
+    border-radius: 30px;
+    width: 74%;
+    height: 80%;
+    top: 128px;
+    left: 275px;
+    background-color: #d9f2fd;
+    position: absolute
+}
+
+.pro-sub-text1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    top: 40px;
+    left: 80px;
+    width: 562px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+
+}
+
+.pro-sub-text2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    top: 55px;
+    left: 880px;
+    width: 562px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+
+}
+
+.pro-sub-text3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    top: 55px;
+    left: 1080px;
+    width: 562px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+}
+/* Notifications css*/
+.notification1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    text-align: left;
+    top: 30px;
+    left: 200px;
+    width: 562px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+
+}
+
+.notification-bar {
+    display:flex;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    top: 150px;
+    left: 140px;
+    width: 83%;
+    height: 250px;
+    color: #6C6C6C;
+    position: absolute;
+}
+
+.notification-date {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: right;
+    top: 50px;
+    left: 950px;
+    width: 120px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+}
+
+.submitted-screenshot-img {
+    width: 170px;
+    height: 145px;
+    background-image: url(./images/StudentDashboard/makeProject-screenshot.png);
+    top: 55px;
+    left: 240px;
+    position: absolute;
+
+}
+
+/* Notfications 2nd Bar css*/
+.notification-bar2 {
+    display:flex;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    top: 425px; 
+    left: 140px;
+    width: 83%;
+    height: 180px;
+    color: #6C6C6C;
+    position: absolute;
+}
+
+.notification2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    text-align: left;
+    top: 30px;
+    left: 200px;
+    width: 562px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+}
+
+.notification-date2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: right;
+    top: 50px;
+    left: 950px;
+    width: 120px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
 }
