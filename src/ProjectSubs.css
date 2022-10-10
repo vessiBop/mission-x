@@ -1,0 +1,39 @@
+.pro-sub-text1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    top: 200px;
+    left: 235px;
+    width: 562px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+
+}
+
+.pro-sub-text2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    top: 200px;
+    left: 600px;
+    width: 562px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+
+}
+
+.pro-sub-text3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    top: 200px;
+    left: 750px;
+    width: 562px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+
+}
+

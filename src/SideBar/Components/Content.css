@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 14px;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+li {
+  width: 100%;
+  height: 53px;
+  display: flex;
+  align-items: center;
+}
+
+li > p {
+  padding-left: 10px;
+}
+
+li:hover {
+  background-color: #b2e4fa;
+  color: #707070;
+  cursor: pointer;
+}
+
+li:active {
+  background-color: #b2e4fa;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.profile > img {
+  width: 79px;
+  height: 79px;
+  padding-top: 70px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.logout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  color: white;
+  margin-top: 400px;
+  height: 100%;
+}
+
+.logout > img {
+  width: 12.58px;
+  height: 12.58px;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  height: 100px;
+}
+
+.logout:hover {
+  cursor: pointer;
+}
+
+.profile {
+  width: 236px;
+  height: 967px;
+  background-color: #43c0f6;
+}
+
+.closed {
+  width: 118px;
+  height: 967px;
+  background-color: #43c0f6;
+}
+
+.closed > img {
+  height: 79px;
+  width: 79px;
+  padding-top: 40%;
+}
+
+.closed > ul > li > p {
+  display: none;
+}
+
+.closed > ul > li > img {
+  padding-left: 30%;
+  width: 40px;
+  height: 40px;
+  padding-top: 23px;
+}
+
+.closed > ul > li {
+  width: 118px;
+  height: 85px;
+}
+
+.hide > .logout > p {
+  display: none;
+}
+
+.hide {
+  display: flex;
+  flex-direction: column;
+  margin-top: 230px;
+}
+
+.hide > .logout {
+  margin-top: 20%;
+}
+
+.hide > .logout > img {
+  width: 17.51px;
+  height: 17.51px;
+}
+
+.leftbtn {
+  width: 64px;
+  height: 72px;
+  background-color: rgba(178, 228, 250, 1);
+  background-image: url(../Images/left-button.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px 0 0 10px;
+  margin-left: 73%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftbtn:hover {
+  cursor: pointer;
+}
+
+.closed > .leftbtn {
+  border-radius: 0px 10px 10px 0px;
+  margin-left: 0px;
+  background-image: url(../Images/right-btn.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.closed > img {
+  padding-left: 10%;
+}
