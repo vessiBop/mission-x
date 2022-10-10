@@ -38,12 +38,12 @@ function StudentsProjectPage() {
                 <br/>
 
                 <Button></Button>
-                <hr/>
+            
             </div>
 
             <div className='container'>
                 <div className="Side_bar" style={{ backgroundColor: "white" }}>
-                    <br/>
+                    
                     <SideBar>
 
                     </SideBar>
@@ -99,7 +99,6 @@ function StudentsProjectPage() {
 
                 </div>
             </div>
-            <hr/>
             <div ><BackButton/></div>
             <br/>
            </div>
