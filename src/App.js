@@ -4,6 +4,8 @@ import UploadScreen from './SubmitProject';
 import ShowTeacher from './ShowTeacher';
 
 
+
+
 import './Navbar.css';
 import './SubmitProject.css';
 import './Parent-div.css';
@@ -23,7 +25,7 @@ function App() {
       
       
 
-      <ProjectSubs />
+      <UploadScreen />
     </div>
   );
 }

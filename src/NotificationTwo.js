@@ -1,5 +1,5 @@
 import './Fonts.css';
-import ScreenShotImg from './images/StudentDashboard/makeProject-screenshot.png';
+
 
 
 

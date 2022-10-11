@@ -4,6 +4,12 @@ import './Fonts.css';
 import NotificationOne from './NotificationOne';
 import NotificationTwo from './NotificationTwo';
 
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+ 
+ 
+
 export default function ProjectSubs() {
     return (
         <>
@@ -14,10 +20,9 @@ export default function ProjectSubs() {
                 <NotificationOne />
                 <NotificationTwo />
                 
-
                 <div className="pro-sub-text1">Project Submissions</div>
-                <div className="pro-sub-text2">Download Files</div>
-                <div className="pro-sub-text3">Mark As Complete Project</div>
+                <div className="pro-sub-text2"><FontAwesomeIcon icon={["fas", "coffee"]} />Download Files</div>
+                <div className="pro-sub-text3">Mark As Complete Project<i class="fa fa-download" aria-hidden="true"></i></div>
             </div>
 
   
@@ -28,3 +33,4 @@ export default function ProjectSubs() {
         </>
     )
 }
+

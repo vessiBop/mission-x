@@ -52,7 +52,7 @@
 }
 
 .submit-butt {
-    display:flex;
+
     font-family: 'Open Sans', sans-serif;
     background-color: #f91c85;
     border-radius: 20px;
@@ -62,7 +62,7 @@
     left: 265px;
     width: 250px;
     height: 160px;
-    color: #6C6C6C;
+    color: #ffffff;
     position: absolute;
 
 }
@@ -290,4 +290,12 @@
     height: 98px;
     color: #6C6C6C;
     position: absolute;
+}
+
+
+.upload-img2 {
+    margin-top: 32px;
+    height: 57px;
+ 
+   
 }
