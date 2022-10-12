@@ -1,12 +1,5 @@
-
-
-import './Navbar.css';
-import './Fonts.css';
-import { Link } from 'react-router-dom';
-
-// Navbar code, check Navbar.css file for the CSS
-
-export default function Navbar() {
+import './Std-Navigationbar.css';
+export default function Navigationbar() {
     return (
         <><div className="navbar-parent-div">
             <div className="left-side-child-of-navbar"></div>
@@ -17,7 +10,7 @@ export default function Navbar() {
             </div>
             <div className="right-side-child-of-navbar">
                 <p className="user-circle-logo"></p>
-                <p className="features-and-login-text"><Link to="/login">FEATURES | LOGIN</Link></p>
+                <p className="features-and-login-text">FEATURES | LOGIN</p>
                 <p className="lang-button">LANG</p>
                 <p className="kiwi-flag"></p>
                 <p className="maori-flag"></p>

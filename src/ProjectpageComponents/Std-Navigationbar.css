@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.navbar-parent-div {
+    background-color: #43C0F6;
+    width: 100%;
+    height: 64px;
+    position:relative;
+}
+
+.left-side-child-of-navbar {
+    top: 5px;
+    left: 50px;;
+    width: 174px;
+    height: 50px;
+    background: transparent url('images/Star\ Logo\ 07-2.png');
+    position: relative;
+
+}
+
+.center-child-of-navbar {
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+
+}
+
+.home-button {
+    left: 600px;
+    top: 16px;
+    width: 81px;
+    height: 22px;
+    position: absolute;
+
+}
+
+.features-button {
+    left: 800px;
+    top: 16px;
+    width: 82px;
+    height: 22px;
+    position: absolute;
+
+}
+
+.teachers-button {
+    left: 1000px;
+    top: 16px;
+    width: 50px;
+    height: 22px;
+    position: absolute;
+
+}
+
+.right-side-child-of-navbar {
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF
+}
+
+.user-circle-logo {
+    background: transparent url('./images/Icon\ awesome-user-circle.png');
+    opacity: 1;
+    left: 1275px;
+    width: 25px;
+    height: 25px;
+    top: 14px;
+    position: absolute;
+}
+
+.features-and-login-text {
+    top: 16px;
+    left: 1300px;
+    width: 148px;
+    height: 22px;
+    position: absolute;
+
+}
+
+.lang-button {
+    top: 1px;
+    left: 1325px;
+    width: 148px;
+    height: 22px;
+    position: absolute;
+    font-size: 12px;
+
+}
+
+.kiwi-flag {
+    background: transparent url('./images/NZ\ Flag.png');
+    opacity: 1;
+    top: 0;
+    left: 1370px;
+    width: 24px;
+    height: 12px;
+    position: absolute;
+}
+
+.maori-flag {
+    background: transparent url('./images/Maori\ flag.png');
+    opacity: 1;
+    top: 0;
+    left: 1400px;
+    width: 24px;
+    height: 12px;
+    position: absolute;
+}

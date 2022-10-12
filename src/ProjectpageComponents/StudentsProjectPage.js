@@ -1,8 +1,7 @@
-import SideBar from './ProjectpageComponents/Side-bar';
-import Button from './ProjectpageComponents/Button';
-import Navbar from './Navbar';
+import SideBar from './Side-bar';
+import Button from './Button';
 import './StudentsProjectPage.css';
-import './Fonts.css';
+import Navigationbar from './Std-Navigationbar';
 import img1 from './React_imgs/img1.png';
 import img2 from './React_imgs/img2.png';
 import img3 from './React_imgs/img3.png';
@@ -18,12 +17,14 @@ import img12 from './React_imgs/img12.png';
 import img13 from './React_imgs/img13.png';
 import img14 from './React_imgs/img14.png';
 import img15 from './React_imgs/img15.png';
-import BackButton from './ProjectpageComponents/BackButton';
+import BackButton from './BackButton';
 
 function StudentsProjectPage() {
     return (
         <div className='main'>
-        <div><Navbar /></div>
+        <div>  
+            <Navigationbar></Navigationbar>
+        </div>
         <div>
             <br/>
             <div>
@@ -98,10 +99,13 @@ function StudentsProjectPage() {
                     <p>The Lion and The Mouse Part 2<br/>BEGINNER | Animation</p> </div>
 
                 </div>
+                
             </div>
             <div ><BackButton/></div>
             <br/>
+           
            </div>
+          
         </div>
     );
 }
