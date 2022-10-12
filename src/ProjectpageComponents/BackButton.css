@@ -1,12 +1,10 @@
 .btn{
-    background-color: rgb(174, 98, 98);
-    color: white;
+    background-color: rgba(215, 191, 8, 0.918);
+    color: black;
     display: flex;
     padding:10px 25px;
-    justify-items: end;
-    margin-left: 42cm;
+    margin-left: 35cm;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 18px;
-    font-family: inherit;
+    font-size: 15px;
 }
