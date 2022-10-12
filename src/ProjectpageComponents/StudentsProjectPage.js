@@ -18,6 +18,7 @@ import img13 from './React_imgs/img13.png';
 import img14 from './React_imgs/img14.png';
 import img15 from './React_imgs/img15.png';
 import BackButton from './BackButton';
+import ProjectPageFooter from './ProjectPageFooter';
 
 function StudentsProjectPage() {
     return (
@@ -103,7 +104,7 @@ function StudentsProjectPage() {
             </div>
             <div ><BackButton/></div>
             <br/>
-           
+           <ProjectPageFooter></ProjectPageFooter>
            </div>
           
         </div>
