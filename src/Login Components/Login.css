@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@600;700&display=swap');
 
 #login-div {
     height: 3689px;
@@ -7,7 +8,7 @@
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    box-shadow: 0px 3px 6px #00000029;
+   
  /*  display: none; */
     
     

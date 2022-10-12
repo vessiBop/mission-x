@@ -53,7 +53,11 @@
     font-size: 16px;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
-    color: #FFFFFF
+    color: #FFFFFF;
+}
+.right-side-child-of-navbar a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .user-circle-logo {
