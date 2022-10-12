@@ -16,6 +16,8 @@ import Footer from './Footer';
 
 
 
+
+
 export default function Homepage() {
     return (
       <div className="parent-div-contains-all-other-divs">
@@ -26,6 +28,8 @@ export default function Homepage() {
         <ExplanationsOfProject />
         <FinalSectionBeforeNavbar />
         <Footer />
+        
+        
       </div>
     );
   }
