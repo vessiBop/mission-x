@@ -1,10 +1,8 @@
-<<<<<<< HEAD:src/Navbar.js
+
 
 import './Navbar.css';
-=======
 import './Fonts.css';
 import { Link } from 'react-router-dom';
->>>>>>> fd32d672d0c8d9f19ff3f97b477d3f1c2a337d82:src/Homepage-Components/Navbar.js
 
 // Navbar code, check Navbar.css file for the CSS
 

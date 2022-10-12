@@ -1,8 +1,8 @@
 import SideBar from './ProjectpageComponents/Side-bar';
 import Button from './ProjectpageComponents/Button';
-import Navbar from './Navbar';
-import './StudentsProjectPage.css';
-import './Fonts.css';
+import Navbar from './Homepage-Components/Navbar';
+import Footer from './Homepage-Components/Footer';
+import './StudentsProjectPage.css'
 import img1 from './React_imgs/img1.png';
 import img2 from './React_imgs/img2.png';
 import img3 from './React_imgs/img3.png';
@@ -101,6 +101,7 @@ function StudentsProjectPage() {
             </div>
             <div ><BackButton/></div>
             <br/>
+            <Footer></Footer>
            </div>
         </div>
     );
