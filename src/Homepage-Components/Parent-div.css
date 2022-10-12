@@ -4,5 +4,13 @@
     width: 1920px;
     height: 3689px;
     box-sizing: border-box;
+    margin: 0;  
+}
+.parent-div-contains-all-other-divs2 {
+    width: 1920px;
+    height: 3689px;
+    box-sizing: border-box;
+    
+   
 
 }
