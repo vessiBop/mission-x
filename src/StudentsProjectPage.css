@@ -3,6 +3,7 @@
   font-family:Nunito, Black ;
   position:relative;
   display:block;
+  color: #6c6c6c;
 }
 .container {
 
@@ -46,4 +47,5 @@ img {
 h1{
   text-align: left;
   margin-left: 15cm;
+  color: #6c6c6c;
 }
