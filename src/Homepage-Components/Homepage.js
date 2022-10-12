@@ -27,9 +27,8 @@ export default function Homepage() {
         <ResponsiveImages />
         <ExplanationsOfProject />
         <FinalSectionBeforeNavbar />
-        <Footer />
-        
-        
+          <Footer/>
+
       </div>
     );
   }

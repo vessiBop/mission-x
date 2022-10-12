@@ -1,0 +1,32 @@
+Button {
+    display: flexbox;
+     background: white;
+     color: black;
+     border-color: black ;
+ border-radius: 2%;
+     padding: 5px 10px;
+     margin: 1px;
+     border-radius: 5px;
+     cursor: pointer;
+     text-decoration: none;
+     font-size: 15px;
+     font-family: inherit;
+     font-family: "adobe-clean", sans-serif;
+ 
+ 
+ 
+ }
+ 
+ Button:hover {
+     background-color: skyblue;
+     color: black;
+ }
+ .Button_Container {
+    
+     display: flex;
+     margin-left: 13cm;
+     margin-right: 3cm;
+     justify-content:space-between;
+  
+    
+ }
