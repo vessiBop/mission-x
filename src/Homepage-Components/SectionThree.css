@@ -57,7 +57,7 @@ font-size: 30px;
 
 
 @media screen 
-    and (max-width: 1366px)
+    and (max-width: 1365px)
     { .four-images-teaching-kids-programming {
         flex-direction: column;
         align-items: center;

@@ -12,7 +12,8 @@ export default function WhatWeOffer() {
     const [style3, setStyle3] = useState("circle-three")
     const [style4, setStyle4] = useState("circle-four")
     
-    // this function changes the state of button one to show first image and to be colored, while setting the other 3 buttons to empty
+    // these functions change the state of the buttons to show the corresponding image to show, and button to be colored, while setting the other 3 buttons to empty
+    
     const changeStyleButtonOne = () => {
         console.log("you have just clicked on the first button")
         setStyle("circle-one2");
