@@ -1,22 +1,18 @@
 Button {
     display: flexbox;
      background: white;
-     color: black;
-     border-color: black ;
- border-radius: 2%;
-     padding: 5px 10px;
+     padding: 3px 10px;
+     border-radius: 10%;
      margin: 1px;
-     border-radius: 5px;
+     background-color: rgb(249, 243, 230);
+     border-color: skyblue;
+     opacity: 100%;
      cursor: pointer;
      text-decoration: none;
-     font-size: 15px;
+     font-size: 12px;
      font-family: inherit;
-     font-family: "adobe-clean", sans-serif;
- 
- 
- 
- }
- 
+     color: #6c6c6c;
+}
  Button:hover {
      background-color: skyblue;
      color: black;
@@ -24,8 +20,8 @@ Button {
  .Button_Container {
     
      display: flex;
-     margin-left: 13cm;
-     margin-right: 3cm;
+     margin-left: 15cm;
+     margin-right: 5cm;
      justify-content:space-between;
   
     
