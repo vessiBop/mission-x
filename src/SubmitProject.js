@@ -22,7 +22,7 @@ export default function UploadScreen() {
                             <FileStack className="filestack" />
                             Send Photo
                             </div>
-                    <div className="submit-butt2"></div>
+                    <div className="line-div"></div>
                     <img className="subphoto-img" src={SubmitPhoto} alt="Submit" />
                         <div className="call-teacher-butt">
                             <img className="call-img" src={CallTeacher} alt="CallTeach" />
