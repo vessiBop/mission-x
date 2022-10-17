@@ -25,7 +25,7 @@ function App() {
       
       
 
-      <UploadScreen />
+      <ProjectSubs />
     </div>
   );
 }

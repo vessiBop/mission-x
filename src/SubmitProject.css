@@ -13,7 +13,8 @@
     top: 128px;
     left: 275px;
     background-color: #d9f2fd;
-    position: absolute
+    position: absolute;
+    ;
 }
 
 .screenshot-img {
@@ -155,6 +156,7 @@
 
 
 /* Project Submissions css*/
+
 .project-subs-container {
     display: flex;
     justify-content: baseline;
@@ -164,6 +166,19 @@
     top: 128px;
     left: 275px;
     background-color: #d9f2fd;
+    position: absolute
+}
+
+.project-subs-scrollable-container {
+    display: flex;
+    justify-content: top;
+    border-radius: 30px;
+    width: 100%;
+    height: 80%;
+    top: 128px;
+    left: 0px;
+    background-color: #d9f2fd;
+    overflow-y: scroll;
     position: absolute
 }
 
@@ -301,4 +316,43 @@
     height: 57px;
  
    
+}
+
+.notification-bar3 {
+    display:flex;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: center;
+    top: 640px; 
+    left: 140px;
+    width: 83%;
+    height: 180px;
+    color: #6C6C6C;
+    position: absolute;
+}
+
+.notification3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    text-align: left;
+    top: 30px;
+    left: 200px;
+    width: 562px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
+}
+
+.notification-date3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: right;
+    top: 50px;
+    left: 950px;
+    width: 120px;
+    height: 98px;
+    color: #6C6C6C;
+    position: absolute;
 }
