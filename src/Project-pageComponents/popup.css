@@ -1,0 +1,15 @@
+.pop-up{
+    display: flexbox;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-left: 40cm;
+    margin-top: 5mm;
+  width: 143px;
+  color: #707070;
+  background-color: #FDF7D3;
+  font-family: Open Sans, SemiBold;
+  font-size: 18px;
+  text-align:center;
+  flex-direction: column;
+  cursor: pointer;
+  }

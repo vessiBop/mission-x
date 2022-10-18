@@ -1,5 +1,5 @@
-import SideBar from './ProjectpageComponents/Side-bar';
-import Button from './ProjectpageComponents/Button';
+import SideBar from './Project-pageComponents/Side-bar';
+import Button from './Project-pageComponents/Button';
 import Navbar from './Homepage-Components/Navbar';
 import Footer from './Homepage-Components/Footer';
 import './StudentsProjectPage.css'
@@ -18,7 +18,7 @@ import img12 from './React_imgs/img12.png';
 import img13 from './React_imgs/img13.png';
 import img14 from './React_imgs/img14.png';
 import img15 from './React_imgs/img15.png';
-import BackButton from './ProjectpageComponents/BackButton';
+import BackButton from './Project-pageComponents/BackButton';
 
 function StudentsProjectPage() {
     return (

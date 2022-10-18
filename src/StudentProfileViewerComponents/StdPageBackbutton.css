@@ -1,0 +1,9 @@
+.btn-btn{
+    display: flex;
+    background-color: skyblue;
+    color: black;
+    border-radius: 5px;
+    border-color: black;
+    margin-left: 30cm;
+    cursor: pointer;
+}
