@@ -10,8 +10,9 @@ function StudentProfileViewer() {
 <div  className="main">
      <div> <StudentCard/></div>
     <div>  <Backbutton/></div>
-    </div>
+    
       <div><Footer/></div>
+      </div>
     </div>
   );
 }
