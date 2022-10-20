@@ -1,4 +1,4 @@
-import PopUpMenu from '../Project-pageComponents/popup';
+import PopUpMenu from '../Project-pageComponents/PopUpMenu';
 import { useState } from 'react';
 import './Navbar.css';
 import './Fonts.css';

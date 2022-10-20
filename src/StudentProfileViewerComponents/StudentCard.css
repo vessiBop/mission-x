@@ -1,4 +1,4 @@
-.main{
+.class-main{
     width: 1920px;
     height: 1023px;
     color: #6c6c6c;
@@ -42,7 +42,7 @@ background-color: whitesmoke;
      justify-content:space-between;
      row-gap: 5mm;
  }
-button{
+.edit_button{
     color: #43C0F6;
     border-style: solid;
     border-color: #43C0F6;
@@ -52,12 +52,24 @@ button{
     text-align: center;
     cursor: pointer;
 }
-h1{
+.changePhoto_btn{
+    color: #43C0F6;
+    border-style: solid;
+    border-color: #43C0F6;
+    border-radius: 5%;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 35px;
 font-family: Nunito, Bold;
 text-align: center;
 }
 
-img{
+.std_image img{
     height: 100px;
     width: 100px;
 }
