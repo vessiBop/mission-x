@@ -26,7 +26,7 @@ function StudentsProjectPage() {
         <div>  
            <Navbar></Navbar>
         </div>
-        <div className='main'>
+        <div className='ProjectPage_main'>
             <br/>
             <div>
                 
@@ -44,14 +44,14 @@ function StudentsProjectPage() {
             </div>
 
             <div className='container'>
-                <div className="Side_bar" style={{ backgroundColor: "white" }}>
+                <div className="ProjectPage_Side_bar" style={{ backgroundColor: "white" }}>
                     
                     <SideBar>
 
                     </SideBar>
                 </div>
               
-                <div className="Images">
+                <div className="Project_Images">
                    <div> 
                         <img src={img1} alt="prj1"></img>
                         <p>Introduction<br/>BEGINNER | Animation</p> 

@@ -1,10 +1,4 @@
-.class-main{
-    width: 1920px;
-    height: 1023px;
-    color: #6c6c6c;
-    background-color: rgba(226, 223, 223, 0.941);
-  }
-  .Std-container{
+.Std-container{
     display: flex;
     position:relative;
     justify-content: space-evenly;
@@ -40,7 +34,7 @@ background-color: whitesmoke;
     display: flex;
     flex-direction:column;
      justify-content:space-between;
-     row-gap: 5mm;
+     row-gap: 7mm;
  }
 .edit_button{
     color: #43C0F6;
@@ -62,8 +56,7 @@ background-color: whitesmoke;
     text-align: center;
     cursor: pointer;
 }
-
-h2{
+.ProfileViewer_header{
     font-size: 35px;
 font-family: Nunito, Bold;
 text-align: center;

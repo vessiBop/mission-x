@@ -2,7 +2,7 @@ import Navbar from './Homepage-Components/Navbar'
 import Footer from './Homepage-Components/Footer';
 import StudentCard from './StudentProfileViewerComponents/StudentCard';
 import BackButton from './StudentProfileViewerComponents/StdPageBack-button';
-import './StudentProfileViewerComponents/StudentCard.css'
+import './StudentProfileViewer.css';
 function StudentProfileViewer() {
   return (
     <div>

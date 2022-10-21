@@ -5,13 +5,13 @@ export default function StudentCard() {
   return (
     <div className='Std-container'>
       
-        <div className='class1'><div className='std_image'> <img src={image} alt=''></img></div>
+        <div className='class1'><div className='std_image'><br/> <img src={image} alt=''></img></div><br/>
         <button className='edit_button'>Edit Profile</button><br/><br/>
         <button className='changePhoto_btn'>Change Photo</button></div>
 
 
         <div className='class2'>
-            <h2>Rawiri Fletcher</h2>
+            <div className='ProfileViewer_header'>Rawiri Fletcher</div><br/><br/>
             <div className='space-btw'>
            <div> School</div>
            <div>  Teacher </div>      
