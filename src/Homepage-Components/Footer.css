@@ -22,3 +22,20 @@
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
 }
+
+
+
+@media screen
+and (max-width: 1366px) {
+  .footer-layout {
+    background-color: #b2e4fa;
+    width: 100%;
+    height: 535px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 154px;
+    text-align: left;
+    color: #707070;
+  }
+  
+}

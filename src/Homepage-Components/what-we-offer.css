@@ -1,6 +1,6 @@
 .what-we-offer-parent-div {
     height: 590px;
-    width: 1920px;
+    width: 100%;
     display: flex;
 
 }
@@ -103,6 +103,8 @@
     display: flex;
     justify-content: center;
 }
+
+
 
 .animation {
     background: transparent url(./images/frame\ copy.png) 0% 0% no-repeat padding-box;
@@ -212,6 +214,7 @@
     cursor: pointer;
 }
 
+
 #button-for-augmented-reality {
     background-color: transparent;
     background-repeat: no-repeat;
@@ -306,4 +309,63 @@
     background: none;
     border: none;
     cursor: pointer;
+}
+
+
+@media screen
+and (max-width: 1366px) {
+#img {
+    width: 450px;
+    height: 450px;
+    top: 20px;
+    right: 120px;
+    position: relative;
+}
+#container-for-circles-flexbox {
+    left: 10px;
+    top: 470px;
+}  .left-side-what-we-offer {
+    flex: 30%;
+} .four-boxes {
+    display: flex;
+    top: 900px;
+    left: 130px;
+    position: absolute;
+    width: 650px;
+    justify-content: space-around;
+
+
+}  .what-we-offer-header-two {
+    font-family: 'Open Sans', sans-serif;
+    color: #767676;
+    font-size: 18px;
+    width: 554px;
+    height: 131px;
+    top: 657px;
+    left: 130px;
+    position: absolute;
+}
+
+.what-will-students-create {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 823px;
+    left: 130px;
+    width: 384px;
+    height: 41px;
+    color: #6C6C6C;
+
+
+} .what-we-offer-header {
+    width: 292px;
+    height: 57px;
+    left: 126px;
+    position: absolute;
+    top: 583px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    color: #6C6C6C;
+}
 }

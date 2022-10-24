@@ -124,7 +124,7 @@ export default function WhatWeOffer() {
                 </div>
                 <div className="right-side-what-we-offer">
                     <div className='project-image'>                       
-                        { <img src={imageURL} alt="animation"/>}
+                        { <img id='img' src={imageURL} alt="animation"/>}
                         <div id='container-for-circles-flexbox'>
                     <button onClick={changeStyleButtonOne}><div id={style}></div></button>
                     <button onClick={changeStyleButtonTwo}><div id={style2}></div></button>

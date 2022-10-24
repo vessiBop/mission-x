@@ -10,11 +10,13 @@
 .prepare-young-minds {
     width: 588px;
     height: 140px;
-    top: 115px;
+    top: 100px;
     left: 266px;
-    background: transparent url('./images/Prepare\ young\ mindsfor\ a\ better\ future..png');
     opacity: 1;
     position: absolute;
+    font-family: 'Nunito';
+    color: #6C6C6C;
+    font-size: 24px;
 
 }
 
@@ -73,4 +75,138 @@
     font-size: x-small;
     color: #707070;
     font-family: 'Open Sans', sans-serif;
+}
+
+@media screen
+and (max-width: 400px) and (min-width:399px) {
+              .young-hero-section {
+                    width: 400px;
+                    height: 400px;
+                    top: 64px;
+                    left: 0px;
+                    background: transparent url('./images/Hero-image-option-1-edit-2.jpg');
+                    opacity: 1;
+          }   .prepare-young-minds {
+                    width: 400px;
+                    height: 40px;
+                    font-size: smaller;
+                    top: 110px;
+                    left: 15px;
+                    opacity: 1;
+                    position: absolute;
+    
+          }   .sub-header-explaining-website-content {
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 18px;
+                    text-align: left;
+                    top: 220px;
+                    left: 15px;
+                    width: 380px;
+                    height: 98px;
+                    color: #6C6C6C;
+                    position: absolute;
+          }   .first-section-button-one {
+                    width: 100px;
+                    height: 35px;
+                    background-color: #FFF;
+                    border-radius: 7px;
+                    border-color: #43C0F6;
+                    font-size: 12px;
+                    border-width: 4px;
+                    font-family: 'Nunito', sans-serif;
+                    color: #6C6C6C;
+                    position: absolute;
+                    top: 341px;
+                    left: 70px;
+          }   .first-section-button-two {
+                    width: 100px;
+                    height: 35px;
+                    background-color: #F91C85;
+                    border-radius: 7px;
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 12px;
+                    color: #FFF;
+                    font-weight: 100;
+                    top: 341px;
+                    left: 200px;
+                    position: absolute;
+         }   .button-two-sign-up-disclaimer {
+                    left: 200px;
+                    top: 379px;
+                    position: absolute;
+                    width: 175px;
+                    height: 37px;
+                    font-size: x-small;
+                    color: #707070;
+                    font-family: 'Open Sans', sans-serif;
+    }
+    
+    
+    
+}
+@media screen
+and (max-width: 1366px) {
+            .young-hero-section {
+                width: 1366px;
+                height: 400px;
+                top: 64px;
+                left: 0px;
+                background: transparent url('./images/Hero-image-option-1-edit-2.jpg');
+                opacity: 1;
+    }        .prepare-young-minds {
+                width: 500px;
+                height: 40px;
+                font-size: medium;
+                top: 100px;
+                left: 150px;
+                opacity: 1;
+                position: absolute; 
+    }       .sub-header-explaining-website-content {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 18px;
+                text-align: left;
+                top: 220px;
+                left: 150px;
+                width: 380px;
+                height: 98px;
+                color: #6C6C6C;
+                position: absolute;
+    }       .first-section-button-one {
+                width: 150px;
+                height: 35px;
+                background-color: #FFF;
+                border-radius: 7px;
+                border-color: #43C0F6;
+                font-size: 16px;
+                border-width: 4px;
+                font-family: 'Nunito', sans-serif;
+                color: #6C6C6C;
+                position: absolute;
+                top: 341px;
+                left: 150px;
+     }   .first-section-button-two {
+                width: 150px;
+                height: 35px;
+                background-color: #F91C85;
+                border-radius: 7px;
+                font-family: 'Nunito', sans-serif;
+                font-size: 16px;
+                color: #FFF;
+                font-weight: 100;
+                top: 341px;
+                left: 350px;
+                position: absolute;
+     }   .button-two-sign-up-disclaimer {
+                left: 350px;
+                top: 379px;
+                position: absolute;
+                width: 175px;
+                height: 37px;
+                font-size: x-small;
+                color: #707070;
+                font-family: 'Open Sans', sans-serif;
+    }
+    
+    
+    
 }

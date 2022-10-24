@@ -14,7 +14,7 @@ export default function Navbar() {
             </div>
             <div className="right-side-child-of-navbar">
                 <p className="user-circle-logo"></p>
-                <p className="features-and-login-text"><Link to="/login">FEATURES | LOGIN</Link></p>
+                <p className="register-and-login-text"><Link to="/login">REGISTER | LOGIN</Link></p>
                 <p className="lang-button">LANG</p>
                 <p className="kiwi-flag"></p>
                 <p className="maori-flag"></p>

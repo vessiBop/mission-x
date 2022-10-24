@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 // Code for the section below the navbar. Check Second-section.css
 
 export default function PrepareYoungMinds() {
+   
+    
     return (
         <>
             <div className="young-hero-section">
-                <div className="prepare-young-minds"></div>
+                <div className="prepare-young-minds"><h1>Prepare young minds for a better<span style={{ color:'#43C0F6' }}> future </span></h1></div>
                 <div className="sub-header-explaining-website-content">Let us help you advance students in Digital Technologies and other learning areas with our project-based learning programme.</div>
                 <div className="first-section-buttons">
                     <button className="first-section-button-one">LEARN MORE</button>

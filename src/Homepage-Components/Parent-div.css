@@ -14,3 +14,34 @@
    
 
 }
+
+@media screen and
+(max-width: 400px) and (min-width:399px) {
+    .parent-div-contains-all-other-divs {
+        width: 375px;
+        height: 3689px;
+        box-sizing: border-box;
+        margin: 0;  
+    }
+    .parent-div-contains-all-other-divs2 {
+        width: 375px;
+        height: 3689px;
+        box-sizing: border-box;
+    }
+    
+}
+
+@media screen and
+(max-width: 1366px) {
+    .parent-div-contains-all-other-divs {
+        width: 1366px;
+        height: 3689px;
+        box-sizing: border-box;
+        margin: 0;  
+    }
+    .parent-div-contains-all-other-divs2 {
+        width: 1366px;
+        height: 3689px;
+        box-sizing: border-box;
+    }
+}
