@@ -13,11 +13,17 @@
   cursor: pointer;
   }
   .My_profile{
-    color: black;
+    color: #707070;
+    font-size: 15px;
+    font-family: Open Sans, SemiBold;
   }
   .Setting{
-    color: black;
+    color: #707070;
+    font-size: 15px;
+    font-family: Open Sans, SemiBold;
   }
   .Log_out{
-    color: black;
+    color: #707070;
+    font-size: 15px;
+    font-family: Open Sans, SemiBold;
   }
