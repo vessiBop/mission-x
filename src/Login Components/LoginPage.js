@@ -48,12 +48,6 @@ function handleSubmit (e) {
             console.log(error);
         })
         }
-    
-  
-    
-
-
-
 
 // useState functions for buttons
 const [buttonClass, setButtonClass] = useState('unclicked-btn');
