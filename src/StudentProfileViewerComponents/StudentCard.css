@@ -1,0 +1,76 @@
+.Std-container{
+    display: flex;
+    position:relative;
+    justify-content: space-evenly;
+}
+.class1{
+display: flexbox;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 200px;
+height: 300px;
+border-style:groove;
+border-radius: 5%;
+margin-top: 3cm;
+margin-left: 8cm;
+background-color: whitesmoke;
+}
+.class2{
+    font-family: Open Sans, Regular;
+    background-color: whitesmoke;
+    text-align: left;
+    border-style:groove;
+    border-radius: 5%;
+    height: 10cm;
+    width: 12cm;
+    margin-top: 3cm; 
+    margin-bottom: 3cm;
+    margin-right: 8cm; 
+    padding: 40px ;
+ }
+ .space-btw{
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 7mm;
+ }
+.edit_button{
+    color: #43C0F6;
+    border-style: solid;
+    border-color: #43C0F6;
+    border-radius: 5%;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.changePhoto_btn{
+    color: #43C0F6;
+    border-style: solid;
+    border-color: #43C0F6;
+    border-radius: 5%;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.ProfileViewer_header{
+    font-size: 35px;
+font-family: Nunito, Bold;
+text-align: center;
+}
+
+.std_image img{
+    height: 100px;
+    width: 100px;
+}
+.left{
+    width: 50%;
+    float:left;
+}
+.right{
+    width:50%;
+   float:right;
+}

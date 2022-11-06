@@ -1,0 +1,29 @@
+.pop-up{
+    display: flexbox;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-left: 40cm;
+    margin-top: 5mm;
+  width: 143px;
+  background-color: #FDF7D3;
+  font-family: Open Sans, SemiBold;
+  font-size: 18px;
+  text-align:center;
+  flex-direction: column;
+  cursor: pointer;
+  }
+  .My_profile{
+    color: #707070;
+    font-size: 15px;
+    font-family: Open Sans, SemiBold;
+  }
+  .Setting{
+    color: #707070;
+    font-size: 15px;
+    font-family: Open Sans, SemiBold;
+  }
+  .Log_out{
+    color: #707070;
+    font-size: 15px;
+    font-family: Open Sans, SemiBold;
+  }

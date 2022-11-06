@@ -1,0 +1,28 @@
+.Project-Button {
+    display: flexbox; 
+     background: white;
+     padding: 3px 10px;
+     border-radius: 10%;
+     margin: 1px;
+     background-color: rgb(249, 243, 230);
+     border-color: skyblue;
+     opacity: 100%;
+     cursor: pointer;
+     text-decoration: none;
+     font-size: 12px;
+     font-family: inherit;
+     color: #6c6c6c;
+}
+ .Project-Button:hover {
+     background-color: skyblue;
+     color: black;
+ }
+ .Button_Container {
+    
+     display: flex;
+     margin-left: 15cm;
+     margin-right: 5cm;
+     justify-content:space-between;
+  
+    
+ }

@@ -1,5 +1,5 @@
-
-
+import PopUpMenu from '../Project-pageComponents/PopUpMenu';
+import { useState } from 'react';
 import './Navbar.css';
 import './Fonts.css';
 import { Link } from 'react-router-dom';
@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 // Navbar code, check Navbar.css file for the CSS
 
 export default function Navbar() {
+    const [isToggled, setIsToggled]= useState(false);
     return (
         <><div className="navbar-parent-div">
             <div className="left-side-child-of-navbar"></div>
@@ -15,7 +16,9 @@ export default function Navbar() {
                 <p className="features-button">PROJECTS</p>
                 <p className="teachers-button">TEACHERS</p>
             </div>
-            <div className="right-side-child-of-navbar">
+            <div className="right-side-child-of-navbar"
+            onClick={() => setIsToggled(!isToggled)}>
+                {isToggled && <PopUpMenu/>}
                 <p className="user-circle-logo"></p>
                 <p className="features-and-login-text"><Link to="/login">FEATURES | LOGIN</Link></p>
                 <p className="lang-button">LANG</p>
