@@ -9,6 +9,8 @@
     margin-left: 282px;
     margin-top: 105px;
     filter: drop-shadow(0 4px 5px #00000029);
+    width: 625px;
+    height: 417px;
     
 }
 
@@ -24,6 +26,8 @@
     margin-left: 80px;
     
     
+    
+    
 }
 
 #right-side-div-final-section a {
@@ -33,6 +37,7 @@
 
 #right-side-div-final-section h1 {
     font-family: 'Nunito';
+    
     
 }
 
@@ -54,7 +59,10 @@
 }
 
 #right-side-div-final-section h1 {
-    font-size: 46px;
+    font-size: 44px;
+    width: 300px;
+    position: relative;
+    right: 570px;
 }
 
 #right-side-div-final-section h5 {
