@@ -31,10 +31,10 @@ background-color: whitesmoke;
     padding: 40px ;
  }
  .space-btw{
+    font-size: large;
     display: flex;
-    flex-direction:column;
-     justify-content:space-between;
-     row-gap: 7mm;
+    flex-wrap: wrap;
+    row-gap: 7mm;
  }
 .edit_button{
     color: #43C0F6;
@@ -65,4 +65,12 @@ text-align: center;
 .std_image img{
     height: 100px;
     width: 100px;
+}
+.left{
+    width: 50%;
+    float:left;
+}
+.right{
+    width:50%;
+   float:right;
 }

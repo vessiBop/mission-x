@@ -14,7 +14,7 @@ function StudentsProjectPage() {
 
   useEffect(() => {
     const myHeaders = new Headers();
-    myHeaders.append("Content-Type", "application/json");
+    myHeaders.append("Content-Type", "application/json"); // use 'useEffect' hook
 
     const raw = JSON.stringify({
       subscriptionType: subscriptionType,
