@@ -8,15 +8,15 @@ import "./Project-pageComponents/ProjectPageButton.css";
 function StudentsProjectPage() {
   const [projects, setProjects] = useState([]); // fetching data from backend
   const [course, setCourse] = useState("Beginner");
-  const [subscriptionType, setSubscriptionType] = useState("Free");
+  const [subscriptionType, setSubscriptionType] = useState("Free"); // use 'useState' hook to call different projects comes after choosing different options.
 
   useEffect(() => {
     const myHeaders = new Headers();
-    myHeaders.append("Content-Type", "application/json"); // use 'useEffect' hook
+    myHeaders.append("Content-Type", "application/json"); // declare headers
 
     const raw = JSON.stringify({
       subscriptionType: subscriptionType,
-      course: course,
+      course: course, // define body parameters to give functionality to different buttons.
     });
 
     const requestOptions = {
@@ -25,7 +25,7 @@ function StudentsProjectPage() {
       body: raw,
     };
 
-    fetch("http://localhost:4004/projects", requestOptions)
+    fetch("http://localhost:4004/projects", requestOptions) // finally call API and fetch database to show on  front-end.
       .then((response) => response.json())
       .then((result) => setProjects(result))
       .catch((error) => console.log("error", error));

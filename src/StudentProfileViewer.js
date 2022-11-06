@@ -4,10 +4,6 @@ import StudentCard from "./StudentProfileViewerComponents/StudentCard";
 import BackButton from "./StudentProfileViewerComponents/StdPageBack-button";
 import "./StudentProfileViewer.css";
 function StudentProfileViewer() {
-  fetch("http://localhost:4002/students/:id")
-    .then((response) => response.json())
-    .then((result) => console.log(result))
-    .catch((error) => console.log("error", error));
   return (
     <div>
       <div>
