@@ -12,9 +12,9 @@
 .what-we-offer-header {
     width: 292px;
     height: 57px;
-    left: 266px;
-    position: absolute;
-    top: 583px;
+    right: 297px;
+    position: relative;
+    top: 114px;
     font-family: 'Nunito', sans-serif;
     font-size: 40px;
     text-align: left;
@@ -229,10 +229,17 @@
     left: 1010px;
     position: absolute;
 }
+.right-side-what-we-offer img {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: 150px;
+}
 
 #container-for-circles-flexbox {
-    left: 260px;
-    position: absolute;
+    left: 300px;
+    position: relative;
+    bottom: 10px;
     height: 30px;
     width: 200px;
     display: flex;
