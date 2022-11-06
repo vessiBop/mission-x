@@ -1,4 +1,4 @@
-Button {
+.Project-Button {
     display: flexbox;
      background: white;
      padding: 3px 10px;
@@ -13,7 +13,7 @@ Button {
      font-family: inherit;
      color: #6c6c6c;
 }
- Button:hover {
+ .Project-Button:hover {
      background-color: skyblue;
      color: black;
  }

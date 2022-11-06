@@ -1,12 +1,10 @@
 import SideBar from "./Project-pageComponents/Side-bar";
-//import Button from './Project-pageComponents/Button';
 import Navbar from "./Homepage-Components/Navbar";
 import Footer from "./Homepage-Components/Footer";
 import "./StudentsProjectPage.css";
 import BackButton from "./Project-pageComponents/BackButton";
 import { useEffect, useState } from "react";
-//import { response } from 'express';
-import "./Project-pageComponents/Button.css";
+import "./Project-pageComponents/ProjectPageButton.css";
 function StudentsProjectPage() {
   const [projects, setProjects] = useState([]); // fetching data from backend
   const [course, setCourse] = useState("Beginner");
@@ -49,16 +47,29 @@ function StudentsProjectPage() {
 
           <div className="Button_Container">
             <div>
-              <button onClick={() => setCourse("Beginner")}>BEGINNER</button>
-              <button onClick={() => setCourse("Intermediate")}>
+              <button
+                className="Project-Button"
+                onClick={() => setCourse("Beginner")}
+              >
+                BEGINNER
+              </button>
+              <button
+                className="Project-Button"
+                onClick={() => setCourse("Intermediate")}
+              >
                 INTERMEDIATE
               </button>
-              <button onClick={() => setCourse("Advanced")}>ADVANCED</button>
+              <button
+                className="Project-Button"
+                onClick={() => setCourse("Advanced")}
+              >
+                ADVANCED
+              </button>
             </div>
             <div>
-              SHOW <button>5</button>
-              <button>10</button>
-              <button>15</button>
+              SHOW <button className="Project-Button">5</button>
+              <button className="Project-Button">10</button>
+              <button className="Project-Button">15</button>
             </div>
           </div>
         </div>
